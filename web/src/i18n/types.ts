@@ -243,6 +243,74 @@ export interface Translations {
     hideValue: string;
   };
 
+  // ── Auth pages ──
+  auth: {
+    badge: string;
+    eyebrow: string;
+    title: string;
+    description: string;
+    legal: string;
+    scaffoldNotice: string;
+    highlights: {
+      secureTitle: string;
+      secureDescription: string;
+      orchestrationTitle: string;
+      orchestrationDescription: string;
+      auditTitle: string;
+      auditDescription: string;
+    };
+    stats: {
+      responseLabel: string;
+      sessionsLabel: string;
+      uptimeLabel: string;
+    };
+    login: {
+      title: string;
+      subtitle: string;
+      helper: string;
+      emailLabel: string;
+      emailPlaceholder: string;
+      passwordLabel: string;
+      passwordPlaceholder: string;
+      remember: string;
+      submit: string;
+      submitting: string;
+      switchPrompt: string;
+      switchAction: string;
+    };
+    register: {
+      title: string;
+      subtitle: string;
+      helper: string;
+      fullNameLabel: string;
+      fullNamePlaceholder: string;
+      emailLabel: string;
+      emailPlaceholder: string;
+      workspaceLabel: string;
+      workspacePlaceholder: string;
+      passwordLabel: string;
+      passwordPlaceholder: string;
+      confirmPasswordLabel: string;
+      confirmPasswordPlaceholder: string;
+      agreeToTerms: string;
+      submit: string;
+      submitting: string;
+      switchPrompt: string;
+      switchAction: string;
+    };
+    validation: {
+      fullNameRequired: string;
+      workspaceRequired: string;
+      emailRequired: string;
+      emailInvalid: string;
+      passwordRequired: string;
+      passwordMin: string;
+      confirmPasswordRequired: string;
+      passwordMismatch: string;
+      agreeToTermsRequired: string;
+    };
+  };
+
   // ── OAuth ──
   oauth: {
     title: string;
